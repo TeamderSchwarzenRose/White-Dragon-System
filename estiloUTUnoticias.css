@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+}
+
+header article {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+header span {
+    padding-top: 10px;
+    font-size: 30px;
+}
+header #menu_nav {
+    margin: 0;
+    padding: 0;
+    background: #3c454c;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+}
+
+.opcion {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rajdhani", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: #E8195C;
+    margin-top: auto;
+}

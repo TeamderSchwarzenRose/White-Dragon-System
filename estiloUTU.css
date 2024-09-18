@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+}
+
+header article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+header span {
+    padding-top: 10px;
+    font-size: 30px;
+}
+header #menu_nav {
+    margin: 0;
+    padding: 0;
+    background: #3c454c;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+}
+
+.opcion-login {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+.opcion {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rajdhani", sans-serif;
+    background-color: white;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: #E8195C;
+    margin-top: auto;
+}

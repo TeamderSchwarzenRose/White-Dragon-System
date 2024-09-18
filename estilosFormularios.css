@@ -1,0 +1,81 @@
+
+.contenedor_formulario {
+    margin: 5% auto;
+    margin-right: 80%;
+}
+
+.contenedor_formulario input {
+    margin-bottom: 10px;
+}
+
+.contenedor_formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_formulario button {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    background-color: transparent;
+    font-family: Rajdhani,sans-serif;
+    margin-top: 11px;
+    margin-left: 100px;
+    margin-right: 3px;
+    border: none;
+    text-align: left;
+    color: white;
+    outline: none;
+}
+
+.input-container[data-augmented-ui] {
+    justify-content: start;
+    --aug-border-all: 1px;
+    --aug-border-bg: white;
+    margin-bottom: 40px;
+    height: 40px;
+    --aug-border-bg: #E8195C;    
+    --aug-bl: 0.4rem;
+    --aug-tr: 0.4rem;
+}
+
+.select-container[data-augmented-ui]{
+    --aug-border-all:1px;
+    --aug-border-bg: white;
+    --aug-border-bg: #E8195C;
+    --aug-bl: 0.4rem;
+    --aug-tr: 0.4rem;
+}
+
+select{
+    background-color: transparent;
+    font-family: Rajdhani,sans-serif;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+button[data-augmented-ui] {
+    text-align: left;
+    font-family: Rajdhani,sans-serif;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #E8195C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    --aug-border: none;
+    --aug-br: 0.7rem;
+}
+
+button:hover {
+    background-color: #991436;
+}
